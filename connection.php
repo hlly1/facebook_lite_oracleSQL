@@ -4,10 +4,10 @@ function connection(){
 
 global $conn;
 global $connected;
-$username = 's3694521';
-$password = 'tclh13795';
-$servername = 'talsprddb01.int.its.rmit.edu.au';
-$servicename = 'CSAMPR1.ITS.RMIT.EDU.AU';
+$username = 's********';
+$password = '*********';
+$servername = '********';
+$servicename = '**********';
 $connection = $servername."/".$servicename;
 
 $conn = oci_connect($username, $password, $connection);
